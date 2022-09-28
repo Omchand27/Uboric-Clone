@@ -1,0 +1,79 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#checkout{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 35%;
+    gap: 20px;
+    /* border: 1px solid red; */
+}
+
+#information{
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+
+.formdata > input{
+    width: 80%;
+    height: 7vh;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#payment{
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+
+.subtotal{
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paymethod{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    border: 1px solid grey;
+}
+
+#img1 + label img{
+    width: 50%;
+}
+
+#payment-btn{
+    width: 100%;
+    height: 9vh;
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 20px;
+}
+
+.pay{
+    display: flex;
+}
+
+table{
+    width: 100%;
+}
+
+input[type=radio]{
+    cursor: pointer;
+}
+
+input{
+    font-size: 20px;
+}
