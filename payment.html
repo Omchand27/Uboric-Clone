@@ -317,7 +317,7 @@
                     <option value="West Bengal">West Bengal</option>
                 </select><br>
                 <label for="name">Town / City *</label><br>
-                <input type="text" id="city" required><br>
+                <input type="text" id="city" required><br>                                                                                                      
                 <label for="name">PIN Code *</label><br>
                 <input type="number" id="pin" required><br>
                 <label for="name">Phone *</label><br>
@@ -333,15 +333,15 @@
             <div class="subtotal">
                 <table>
                     <thead>
-                      <tr>
+                        <tr>
                         <th>Product</th>
                         <th>Subtotal</th>
-                      </tr>
+                        </tr>
                     </thead>
                     <tbody>
-                      <!-- Append your data here  -->
+                        <!-- Append your data here  -->
                     </tbody>
-                  </table>
+                    </table>
             </div>
             <div class="subtotal">
                 <p>Subtotal</p>
@@ -352,26 +352,27 @@
                 <p id="totalprice"></p>
             </div>
             <div>
-                <a href="https://imgbb.com/"><img src="https://i.ibb.co/LYddRhD/Screenshot-318.png" alt="Screenshot-318" border="0"></a>
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/LYddRhD/Screenshot-318.png" alt="Screenshot-318" border="0" id="dicount-img"></a>
             </div>
             <div class="paymethod">
                 <form action="" class="pay">
                     <input type="radio" name=payment checked>
-                
-                <p id="img1">Cash On delivery</p>
+                    
+                <p id="img0">Cash On delivery</p>
                 <label for=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkl8xxD9C1uxapqfAktRAfDckswHLTNkuhLeNtd432bvK0qivFH1BvaqJmhaHmiODa65s&usqp=CAU" alt=""></label>
             </div>
             <div class="paymethod">
                 <form action="" class="pay">
                     <input type="radio" name=payment>
-                
-                <p>pay with paytm</p>
+                    
+                <p id="img1">pay with paytm </p>
                 <label for=""><img src="https://www.uboric.com/wp-content/plugins/woo-paytm-payment-gateway/images/logo.gif" alt=""></label>
             </div>
             <div class="paymethod">
                 <form action="" class="pay">
                     <input type="radio" name=payment>
                 </form>
+                <p id="img1"></p>
                 <label for=""><img src="https://cdn.razorpay.com/static/assets/logo/payment.svg" alt=""></label>
             </div>
             <p> EMI Available. Pay securely by Credit or Debit card,UPI or Internet Banking through Razorpay.</p>

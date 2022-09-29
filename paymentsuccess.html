@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Successful</title>
+    <style>
+        #container{
+            /* border: 1px solid red; */
+            margin: auto;
+            margin-top: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button{
+            background-color: #1f1f1f;
+            color: white;
+            width: 30%;
+            height: 9vh;
+            border-radius: 10px;
+            font-size: 150%;
+            text-align: center;
+        }
+
+        #buttons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #text{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+        }
+
+        @media screen and (max-width: 850px){
+            button{
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="https://agazella.com/wp-content/uploads/2021/03/payment_successful.gif" alt="">
+    </div>
+    <div id="text"><h2>Payment Successful</h2></div>
+    <div id="buttons">
+        <button>Return to Home Page</button>
+    </div>
+    
+</body>
+</html>
+
+<script>
+    document.querySelector("button").addEventListener("click", home);
+
+    function home(){
+        location.href="index.html"
+    }
+</script>
