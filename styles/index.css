@@ -145,11 +145,14 @@ img {
     height: 1220px;
     display: block;
     margin-left: 100px;
-    transition: transform 2s;
+    transition: transform 1s;
+    overflow:hidden;
+    filter: brightness(80%);
+ 
 }
 
 .sub-div img:hover {
-    transform: scale(1.1);
+    transform: scale(1.09);
 }
 
 .sub-div .imag {
