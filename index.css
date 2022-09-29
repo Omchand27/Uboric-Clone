@@ -99,3 +99,59 @@ h1 + p {
 .garments div p{
     text-align: center;
 }
+#bottom h2{
+  text-align: center;
+  margin-bottom: 100px;
+}
+#arrivals{
+  display: grid;
+  overflow: auto;
+  overscroll-behavior-inline: contain;
+  grid-template-columns: repeat(8, 1fr);
+  height: 400px;
+  gap: 30px;
+}
+#arrivals div img{
+ height: 250px;
+}
+.bottom-para{
+  margin-top: 100px;
+  text-align: center;
+}
+.bottom-para p{
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  text-align: justify;
+  line-height: 30px;
+  color: #94979c;
+}
+#benefits{
+  display: flex;
+  margin: 100px auto;
+  width: 60%;
+  justify-content: space-between;
+}
+#benefits div img{
+  width: 550px;
+}
+#benefits div p{
+  margin-top: 30px;
+  color: #94979c;
+}
+#benefits div p+button{
+  padding: 10px;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px ;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+#benefits div p+button:hover{
+  cursor: pointer;
+  color: rgb(240, 225, 225);
+}
+        
