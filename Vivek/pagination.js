@@ -1,32 +1,36 @@
-let ShopData = [
+let ShopData1=[
     { Name: "Reebok Men’s Fast Approach M Running Shoe",
-     Price: "₹3,099.00",
-      totprice: 3099, 
-      Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71IFuAat7eL._UL1500_-670x670.jpg", 
-      Image1: "",
-       Image2: "", 
-       Categories: "Foot Wear" },
-    { Name: "Reebok Men Sports Lace Up",
-     Price: "₹2,599.00",
-      totprice: 2599,
-       Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/reebok_ex8042_1_1.jpg",
-        Image1: "", 
-        Image2: "",
-         Categories: "Foot Wear" },
-    { Name: "Reebok Men’s Port Line Running Shoe", Price: "₹2,799.00", totprice: 2799, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/1-22.jpg", Image1: "", Image2: "", Categories: "Foot Wear" },
-    { Name: "Reebok Men’s Energy Runner 2.0 Running Shoe", Price: "₹2,299.00", totprice: 2299, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71NgL037a0L._UL1500_-670x396.jpg", Image1: "", Image2: "", Categories: "Foot Wear" },
-    { Name: "Reebok Men’s Austin Running Shoe", Price: "₹2,099.00", totprice: 2099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71UwCm6R4jS._UL1500_-670x374.jpg", Image1: "", Image2: "", Categories: "Foot Wear" },
-    { Name: "Plastic Organic Hygienic Fresh Sprout Maker Box Sprouted Jar with 3 Container for Home, (2 Container)", Price: "₹219.00", totprice: 219, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/41UJLrf3jL-336x370.jpg", Categories: "Kitchen Ware" },
-    { Name: "Sprout Maker | Crystal Clear Transparent (Medium)", Price: "₹298.00", totprice: 298, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61ymDbamjGL._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-    { Name: "Sprout Maker Fresh Sprouts with 4 Compartment (Big)", Price: "₹339.00", totprice: 339, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/710EZXJdgL._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-    { Name: "GRECY JANTA Glass 6 Pcs Plastic Unbreakable Stylish Transparent Water Glass/Juice Glass/Beer Glass/Wine Glass Plastic Glass Set ( 250 ML, Pack of 6) (JANTA Glass)", Price: "₹125.00", totprice: 125, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51qXxTDUjfS._SL1280_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-    { Name: "4 in 1 Multipurpose Plastic 2 Spice and 2 Pickle, Achar Container Set for Dining Table with Spoon", Price: "₹198.00", totprice: 198, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61gx-EzUwdL._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
+    Price: "₹3,099.00",
+     totprice: 3099, 
+     Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71IFuAat7eL._UL1500_-670x670.jpg", 
+     Image1: "",
+      Image2: "", 
+      Categories: "Foot Wear" },
+   { Name: "Reebok Men Sports Lace Up",
+    Price: "₹2,599.00",
+     totprice: 2599,
+      Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/reebok_ex8042_1_1.jpg",
+       Image1: "", 
+       Image2: "",
+        Categories: "Foot Wear" },
+   { Name: "Reebok Men’s Port Line Running Shoe", Price: "₹2,799.00", totprice: 2799, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/1-22.jpg", Image1: "", Image2: "", Categories: "Foot Wear" },
+   { Name: "Reebok Men’s Energy Runner 2.0 Running Shoe", Price: "₹2,299.00", totprice: 2299, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71NgL037a0L._UL1500_-670x396.jpg", Image1: "", Image2: "", Categories: "Foot Wear" },
+   { Name: "Reebok Men’s Austin Running Shoe", Price: "₹2,099.00", totprice: 2099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71UwCm6R4jS._UL1500_-670x374.jpg", Image1: "", Image2: "", Categories: "Foot Wear" },
+   { Name: "Plastic Organic Hygienic Fresh Sprout Maker Box Sprouted Jar with 3 Container for Home, (2 Container)", Price: "₹219.00", totprice: 219, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/41UJLrf3jL-336x370.jpg", Categories: "Kitchen Ware" },
+   { Name: "Sprout Maker | Crystal Clear Transparent (Medium)", Price: "₹298.00", totprice: 298, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61ymDbamjGL._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
+   { Name: "Sprout Maker Fresh Sprouts with 4 Compartment (Big)", Price: "₹339.00", totprice: 339, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/710EZXJdgL._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
+   { Name: "GRECY JANTA Glass 6 Pcs Plastic Unbreakable Stylish Transparent Water Glass/Juice Glass/Beer Glass/Wine Glass Plastic Glass Set ( 250 ML, Pack of 6) (JANTA Glass)", Price: "₹125.00", totprice: 125, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51qXxTDUjfS._SL1280_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
+   { Name: "4 in 1 Multipurpose Plastic 2 Spice and 2 Pickle, Achar Container Set for Dining Table with Spoon", Price: "₹198.00", totprice: 198, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61gx-EzUwdL._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
     { Name: "Camera Lens Plastic Coffee Mug with 2 Lid, 400ml, Black", Price: "₹345.00", totprice: 345, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61zhu2SZrvL._SL1280_.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/51VUIk9fsIL._SL1280_-130x130.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/71VDIUZWjUL._SL1500_-670x444.jpg", Categories: "Electronics" },
     { Name: "Plastic LPG Gas Cylinder Trolley Easily Movable Stand with Wheels Flower Pot Stand Use As Carrying Kitchen Items Up To 75 kg (Red)", Price: "₹289.00", totprice: 289, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/81ZFmDWI07L._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
     { Name: "STUFF COOL Plastic Gadget Adjustable Slicer – (Black)", Price: "₹169.00", totprice: 169, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51IY7TYL1kL._SL1000_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
     { Name: "STUFF COOL Plastic Gadget Adjustable Slicer – (Black)", Price: "₹169.00", totprice: 169, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51gu1bl7J0L._SL1280_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
     { Name: "Titanic 7 Section Masala Box, 700ml Masala Container For Kitchen, Multipurpose Masala and Rangoli box, Airtight Masala Storage Container (Titanic Masala Box)", Price: "₹189.00", totprice: 189, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71UHY9XCYLL._SL1280_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-    { Name: "Cake Palette Knife | Steel Icing Spatula 3 Pieces Set | Cake Knife | Cream Icing Frosting Spatula | Baking Kitchen Pastry Cake Decoration Tool. (4.5, 3 Pieces Set)", Price: "₹79.00", totprice: 79, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51g4bLbiBLL-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
+  
+]
+
+let ShopData2=[
+     { Name: "Cake Palette Knife | Steel Icing Spatula 3 Pieces Set | Cake Knife | Cream Icing Frosting Spatula | Baking Kitchen Pastry Cake Decoration Tool. (4.5, 3 Pieces Set)", Price: "₹79.00", totprice: 79, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51g4bLbiBLL-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
     { Name: "Pyramid Stylish Modern Look Water Bottle Set of 3-1000ml capacity fridge/daily uses Office School Collage Travel (Spiral Water Bottle 1 Ltr)", Price: "₹350.00", totprice: 350, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61QeAQoifbL._SL1280_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
     { Name: "Stainless Steel 4 in 1 Slicer and Grater Chopper Fruit Slicer Dicer Grater Potatoes Slicer Peeler Attach 4 Blades for Chips Vegetable & Fruit Cutter Slicer Vegetable Slicer for Kitchen", Price: "₹149.00", totprice: 149, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61tblCJD2aL._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
     { Name: "3 in 1 Large Durable Plastic Kitchen Sink Dish Rack Drainer Drying Rack Washing Basket with Tray for Kitchen, Dish Rack Organizers, Utensils Tools Cutlery (Brown)", Price: "₹409.00", totprice: 409, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61fj9FfYQdL._SL1122_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
@@ -41,6 +45,10 @@ let ShopData = [
     { Name: "Hepo SS Soap & Shampoo Holder (Psc-1)", Price: "₹948.00", totprice: 948, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/41Usq4gIzXS._SL1000_-670x503.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/41YHZbPWo9S._SL1000_-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/41JWiRAI78S._SL1000_-670x670.jpg", Categories: "Bathroom Accessories" },
     { Name: "Hepo SS Tissue Roll Holder (Psc-1)", Price: "₹969.00", Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61HRxg1mTQL._SL1200_-670x503.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/51Jirqa6JQL._SL1000_-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/51Gnc72F9L._SL1000_-670x670.jpg", Categories: "Bathroom Accessories" },
     { Name: "Hepo SS Tooth Brush Holder (Psc-1)", Price: "₹757.00", totprice: 757, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51BaAbehDSS._SL1000_-670x503.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/41AShpVODAS._SL1000_-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/61YSFN6WOTS._SL1500_-670x348.jpg", Categories: "Bathroom Accessories" },
+
+]
+
+let ShopData3=[
     { Name: "Hepo SS Bathroom Clothes Hook (Psc-1)", Price: "₹1,138.00", totprice: 1138, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51ShGPinoNS._SL1000_-670x503.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/61EvIzVlWeS._SL1500_-1-670x348.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/61EvIzVlWeS._SL1500_-670x348.jpg", Categories: "Bathroom Accessories" },
     { Name: "Hepo SS Accessory Shelf (Psc-1)", Price: "₹1,043.00", totprice: 1043, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51WwygoTDPS._SL1000_-670x503.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/41RjQPiWT7S._SL1000_-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/41n-9EQFj7S._SL1000_-670x670.jpg", Categories: "Bathroom Accessories" },
     { Name: "Hepo SS Hand Towel Holder (Psc-1)", Price: "₹485.00", totprice: 485, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51UFlUo6eNS._SL1000_-670x503.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/41Vv1sbhUgS._SL1000_-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/61EHwiJwLdS._SL1500_-670x348.jpg", Categories: "Bathroom Accessories" },
@@ -56,6 +64,10 @@ let ShopData = [
     { Name: "Men shirt magic cotton with digital print in multi colour in green", Price: "₹795.00", totprice: 795, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/WhatsApp-Image-2022-07-26-at-9.20.12-PM-370x370.jpeg", Image1: "", Image2: "", Categories: "Men's fashion" },
     { Name: "Men shirt magic cotton with digital print in multi colour in white", Price: "₹795.00", totprice: 795, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/WhatsApp-Image-2022-07-26-at-9.20.11-PM1-370x370.jpeg", Image1: "", Image2: "", Categories: "Men's fashion" },
     { Name: "Men shirt magic cotton with digital print in multi colour in black", Price: "₹795.00", totprice: 795, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/WhatsApp-Image-2022-07-26-at-9.20.11-PM-370x370.jpeg", Image1: "", Image2: "", Categories: "Men's fashion" },
+
+]
+
+let ShopData4=[
     { Name: "Tomato Cotton Printed Long Tunic", Price: "₹795.00", totprice: 795, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/CP-306_EX-370x370.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/CP-306-130x130.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/CP-306_BACK-130x130.jpg", Categories: "Women's Fashion" },
     { Name: "Brown Cotton Printed Long Tunic for Work Wear", Price: "₹795.00", totprice: 795, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/CP-305-370x370.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/CP-305-130x130.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/CP-305_BACK-670x1005.jpg", Categories: "Women's Fashion" },
     { Name: "White Anarkali Cotton Printed Long Tunic...", Price: "₹985.00", totprice: 985, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/CP-303_EX-370x370.jpg", Image1: "", Image2: "", Categories: "Women's Fashion" },
@@ -71,6 +83,10 @@ let ShopData = [
     { Name: "Powerbuds + Power Bank", Price: "₹3,999.00", totprice: 3999, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/POwerbudspro_0000s_0000_002_500x-370x309.jpg", Image1: "", Image2: "", Categories: "Electric Appliances" },
     { Name: "Powerbuds Sweat Proof TWS", Price: "₹3,499.00", totprice: 3499, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/PowerBuds_0000_500_500x-370x309.jpg", Image1: "", Image2: "", Categories: "Electric Appliances" },
     { Name: "Ace Powerbank", Price: "₹1,299.00", totprice: 1299, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/Ace-1_500x-370x370.jpg", Image1: "", Image2: "", Categories: "Electric Appliances" },
+   
+]
+
+let ShopData5=[
     { Name: "3213 Wired Headphone", Price: "₹714.00", totprice: 714, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/1_236fca83-9f26-4eb2-8448-0e2585834488_500x.jpg", Image1: "", Image2: "", Categories: "Electronics" },
     { Name: "Aquaboom Portable Speaker", Price: "₹1,399.00", totprice: 1399, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/V2_Aquaboom_Option02_500x-370x370.jpg", Image1: "", Image2: "", Categories: "Electronics" },
     { Name: "MuDisc Portable Speaker", Price: "₹1,199.00", totprice: 1199, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/6_2d252789-c6e2-485e-8da3-4105ee8f683c_500x-370x370.jpg", Image1: "", Image2: "", Categories: "Electronics" },
@@ -86,27 +102,14 @@ let ShopData = [
     { Name: "Risentshop Silicone Toilet Brush with Holder Stand , Brush for Bathroom Cleaning, Cleaning Silicone Brush and Holder (Multi Color, Pack of 1)", Price: "₹389.00", totprice: 389, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/7-1.jpg", Image1: "", Image2: "", Categories: "Household Supplies" },
     { Name: "Shopiable Store Portable Toothbrush, Tongue Cleaner Holder Case Traveling, Outdoor, Use to Storage & Carry Case Storage Box Cover Organizer (3)", Price: "₹249.00", totprice: 249, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/1-670x670.jpg", Image1: "", Image2: "", Categories: "Household Supplies" },
     { Name: "Mobile Holder (Black)", Price: "₹101.00", totprice: 101, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51qFdGuV30L._SL1200_-670x670.jpg", Image1: "", Image2: "", Categories: "Household Supplies" },
-    { Name: "iLife Velway V8s Smart robotic Vacuum Cleaner with High Suction with WiFi Connected Compatible with Alexa and Google Home , Mapping and Ultra Power Navigation White", Price: "₹29,999.00", totprice: 29999, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/1d975428c35df0023afe1362079c2364.jpg", Image1: "", Image2: "", Categories: "Household Supplies" },
-    { Name: "Amour V7s 3-in-1 Smart robotic Vacuum Cleaner WiFi Connected Compatible with Alexa and Google Home", Price: "₹24,999.00", totprice: 24999, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/7542a9cc13ee5f1692b8983fcd1655d3-670x670.jpg", Image1: "", Image2: "", Categories: "Household Supplies" },
-    { Name: "7.5HP SS Pack Body 2 In 1 Pulverizer", Price: "₹97,750.00", totprice: 97750, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-07-29_12-35-52-2.jpg", Categories: "Industrial Supplies" },
-    { Name: "1.25 HP SS Baby Portable Flour Mill", Price: "₹11,649.00 – ₹12,149.00", totprice: 12149, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-07-29_12-35-52.jpg", Image1: "", Image2: "", Categories: "Industrial Supplies" },
-    { Name: "M.S. body 2 in 1 pulverizer with ISI motor", Price: "₹27,699.00", Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-07-29_12-35-51-370x370.jpg", Image1: "", Image2: "", Categories: "Industrial Supplies" },
-    { Name: "Daniel Christian The Millenary (Silver)", Price: "₹6,599.00", totprice: 6599, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-05-25_11-30-00.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-25_11-29-52-2-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-25_11-29-53-670x670.jpg", Categories: "Watches" },
-    { Name: "Daniel Christian The Millenary (black)", Price: "₹6,990.00", totprice: 6990, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/583-6-2001-2_800x800.png", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/226A6669_2_1799x1799-670x670.png", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/226A6680_2_1799x1799-670x670.png", Categories: "Watches" },
-    { Name: "Daniel Christian The Ghost (Red)", Price: "₹7,950.00", totprice: 7950, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-05-25_11-29-52.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-25_11-29-50-2-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-25_11-29-51-670x670.jpg", Categories: "Watches" },
-    { Name: "Daniel Christian OLYMPIA (Gold)", Price: "₹10,999.00", totprice: 10999, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/IMG_2187_800x800.png", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/DOL9791-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/DOL92021-670x670.jpg", Categories: "Watches" },
-    { Name: "Libra silver necklace", Price: "₹1,099.00", totprice: 1099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-05-13_18-34-39.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-34-39-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-34-42-670x670.jpg", Categories: "Jewellery" },
-    { Name: "Bender rosegold necklace", Price: "₹1,099.00", totprice: 1099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-05-13_18-28-43.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-28-43-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-28-42-670x670.jpg", Categories: "Jewellery" },
-    { Name: "Looper gold necklace", Price: "₹1,099.00", totprice: 1099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-05-13_18-24-27.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-24-27-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-24-26-670x670.jpg", Categories: "Jewellery" },
-    { Name: "Garce rosegold necklace", Price: "₹1,099.00", totprice: 1099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-05-13_17-56-46-Copy.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_17-56-45-Copy-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_17-56-45-Copy-670x670.jpg", Categories: "Jewellery" },
 
 ]
 
 
-let products=document.getElementById("products");
-function display(ShopData){
-    ShopData.innerHTML=null;
-    ShopData.forEach(function(el){
+let products1=document.getElementById("products");
+function display(ShopData1){
+    ShopData1.innerHTML=null;
+    ShopData1.forEach(function(el){
         let div = document.createElement("div");
     let name = document.createElement("h3");
     name.innerText=el.Name;
@@ -136,81 +139,163 @@ function display(ShopData){
     div1.append(totprice,price)
     div2.append(image_url,div3)
     div.append(div2,name,div1);
-    products.append(div);
+    products1.append(div);
+    })
+}
+display(ShopData1);
+
+
+
+let products2=document.getElementById("products");
+function display(ShopData2){
+    ShopData2.innerHTML=null;
+    ShopData2.forEach(function(el){
+        let div = document.createElement("div");
+    let name = document.createElement("h3");
+    name.innerText=el.Name;
+    let image_url = document.createElement("img");
+    image_url.setAttribute("src", el.Image);
+    image_url.addEventListener("click",function(){
+      show(el)
+    })   
+    let div1=  document.createElement("div");
+    div1.setAttribute("class","pri")
+    let div2=  document.createElement("div");
+    div2.setAttribute("class","work");
+    let div3=document.createElement("div");
+    div3.setAttribute("class","layer")
+     let h3=document.createElement("h3");
+     h3.innerText="Quick view"
+     h3.addEventListener("click",()=>{
+        window.location.href="./view.html"
+     })
+     let p=document.createElement("p");
+     p.innerText="keep shopping"
+     div3.append(h3,p);
+    let price=document.createElement("h2");
+    price.innerHTML=el.Price;
+    let totprice=document.createElement("h4");
+    totprice.innerHTML=el.totprice;
+    div1.append(totprice,price)
+    div2.append(image_url,div3)
+    div.append(div2,name,div1);
+    products2.append(div);
     })
 }
 
-display(ShopData);
-
-// let ShopData1=[
-//     { Name: "Reebok Men’s Fast Approach M Running Shoe",
-//     Price: "₹3,099.00",
-//      totprice: 3099, 
-//      Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71IFuAat7eL._UL1500_-670x670.jpg", 
-//      Image1: "",
-//       Image2: "", 
-//       Categories: "Foot Wear" },
-//    { Name: "Reebok Men Sports Lace Up",
-//     Price: "₹2,599.00",
-//      totprice: 2599,
-//       Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/reebok_ex8042_1_1.jpg",
-//        Image1: "", 
-//        Image2: "",
-//         Categories: "Foot Wear" },
-//    { Name: "Reebok Men’s Port Line Running Shoe", Price: "₹2,799.00", totprice: 2799, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/1-22.jpg", Image1: "", Image2: "", Categories: "Foot Wear" },
-//    { Name: "Reebok Men’s Energy Runner 2.0 Running Shoe", Price: "₹2,299.00", totprice: 2299, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71NgL037a0L._UL1500_-670x396.jpg", Image1: "", Image2: "", Categories: "Foot Wear" },
-//    { Name: "Reebok Men’s Austin Running Shoe", Price: "₹2,099.00", totprice: 2099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71UwCm6R4jS._UL1500_-670x374.jpg", Image1: "", Image2: "", Categories: "Foot Wear" },
-//    { Name: "Plastic Organic Hygienic Fresh Sprout Maker Box Sprouted Jar with 3 Container for Home, (2 Container)", Price: "₹219.00", totprice: 219, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/41UJLrf3jL-336x370.jpg", Categories: "Kitchen Ware" },
-//    { Name: "Sprout Maker | Crystal Clear Transparent (Medium)", Price: "₹298.00", totprice: 298, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61ymDbamjGL._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-//    { Name: "Sprout Maker Fresh Sprouts with 4 Compartment (Big)", Price: "₹339.00", totprice: 339, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/710EZXJdgL._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-//    { Name: "GRECY JANTA Glass 6 Pcs Plastic Unbreakable Stylish Transparent Water Glass/Juice Glass/Beer Glass/Wine Glass Plastic Glass Set ( 250 ML, Pack of 6) (JANTA Glass)", Price: "₹125.00", totprice: 125, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51qXxTDUjfS._SL1280_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-//    { Name: "4 in 1 Multipurpose Plastic 2 Spice and 2 Pickle, Achar Container Set for Dining Table with Spoon", Price: "₹198.00", totprice: 198, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61gx-EzUwdL._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-//     { Name: "Camera Lens Plastic Coffee Mug with 2 Lid, 400ml, Black", Price: "₹345.00", totprice: 345, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61zhu2SZrvL._SL1280_.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/51VUIk9fsIL._SL1280_-130x130.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/71VDIUZWjUL._SL1500_-670x444.jpg", Categories: "Electronics" },
-//     { Name: "Plastic LPG Gas Cylinder Trolley Easily Movable Stand with Wheels Flower Pot Stand Use As Carrying Kitchen Items Up To 75 kg (Red)", Price: "₹289.00", totprice: 289, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/81ZFmDWI07L._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-//     { Name: "STUFF COOL Plastic Gadget Adjustable Slicer – (Black)", Price: "₹169.00", totprice: 169, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51IY7TYL1kL._SL1000_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-//     { Name: "STUFF COOL Plastic Gadget Adjustable Slicer – (Black)", Price: "₹169.00", totprice: 169, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51gu1bl7J0L._SL1280_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-//     { Name: "Titanic 7 Section Masala Box, 700ml Masala Container For Kitchen, Multipurpose Masala and Rangoli box, Airtight Masala Storage Container (Titanic Masala Box)", Price: "₹189.00", totprice: 189, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71UHY9XCYLL._SL1280_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-  
-// ]
 
 
-// let products1=document.getElementById("products");
-// function display(ShopData1){
-//     ShopData1.innerHTML=null;
-//     ShopData1.forEach(function(el){
-//         let div = document.createElement("div");
-//     let name = document.createElement("h3");
-//     name.innerText=el.Name;
-//     let image_url = document.createElement("img");
-//     image_url.setAttribute("src", el.Image);
-//     image_url.addEventListener("click",function(){
-//       show(el)
-//     })   
-//     let div1=  document.createElement("div");
-//     div1.setAttribute("class","pri")
-//     let div2=  document.createElement("div");
-//     div2.setAttribute("class","work");
-//     let div3=document.createElement("div");
-//     div3.setAttribute("class","layer")
-//      let h3=document.createElement("h3");
-//      h3.innerText="Quick view"
-//      h3.addEventListener("click",()=>{
-//         window.location.href="./view.html"
-//      })
-//      let p=document.createElement("p");
-//      p.innerText="keep shopping"
-//      div3.append(h3,p);
-//     let price=document.createElement("h2");
-//     price.innerHTML=el.Price;
-//     let totprice=document.createElement("h4");
-//     totprice.innerHTML=el.totprice;
-//     div1.append(totprice,price)
-//     div2.append(image_url,div3)
-//     div.append(div2,name,div1);
-//     products1.append(div);
-//     })
-// }
-// // display(ShopData1);
+let products3=document.getElementById("products");
+function display(ShopData3){
+    ShopData3.innerHTML=null;
+    ShopData3.forEach(function(el){
+        let div = document.createElement("div");
+    let name = document.createElement("h3");
+    name.innerText=el.Name;
+    let image_url = document.createElement("img");
+    image_url.setAttribute("src", el.Image);
+    image_url.addEventListener("click",function(){
+      show(el)
+    })   
+    let div1=  document.createElement("div");
+    div1.setAttribute("class","pri")
+    let div2=  document.createElement("div");
+    div2.setAttribute("class","work");
+    let div3=document.createElement("div");
+    div3.setAttribute("class","layer")
+     let h3=document.createElement("h3");
+     h3.innerText="Quick view"
+     h3.addEventListener("click",()=>{
+        window.location.href="./view.html"
+     })
+     let p=document.createElement("p");
+     p.innerText="keep shopping"
+     div3.append(h3,p);
+    let price=document.createElement("h2");
+    price.innerHTML=el.Price;
+    let totprice=document.createElement("h4");
+    totprice.innerHTML=el.totprice;
+    div1.append(totprice,price)
+    div2.append(image_url,div3)
+    div.append(div2,name,div1);
+    products3.append(div);
+    })
+}
 
 
-// //console.log(ShopData.length);
+
+let products4=document.getElementById("products");
+function display(ShopData4){
+    ShopData4.innerHTML=null;
+    ShopData4.forEach(function(el){
+        let div = document.createElement("div");
+    let name = document.createElement("h3");
+    name.innerText=el.Name;
+    let image_url = document.createElement("img");
+    image_url.setAttribute("src", el.Image);
+    image_url.addEventListener("click",function(){
+      show(el)
+    })   
+    let div1=  document.createElement("div");
+    div1.setAttribute("class","pri")
+    let div2=  document.createElement("div");
+    div2.setAttribute("class","work");
+    let div3=document.createElement("div");
+    div3.setAttribute("class","layer")
+     let h3=document.createElement("h3");
+     h3.innerText="Quick view"
+     h3.addEventListener("click",()=>{
+        window.location.href="./view.html"
+     })
+     let p=document.createElement("p");
+     p.innerText="keep shopping"
+     div3.append(h3,p);
+    let price=document.createElement("h2");
+    price.innerHTML=el.Price;
+    let totprice=document.createElement("h4");
+    totprice.innerHTML=el.totprice;
+    div1.append(totprice,price)
+    div2.append(image_url,div3)
+    div.append(div2,name,div1);
+    products4.append(div);
+    })
+}
+
+
+
+let products5=document.getElementById("products");
+function display(ShopData5){
+    ShopData5.innerHTML=null;
+    ShopData5.forEach(function(el){
+        let div = document.createElement("div");
+    let name = document.createElement("h3");
+    name.innerText=el.Name;
+    let image_url = document.createElement("img");
+    image_url.setAttribute("src", el.Image);
+    image_url.addEventListener("click",function(){
+      show(el)
+    })   
+    let div1=  document.createElement("div");
+    div1.setAttribute("class","pri")
+    let div2=  document.createElement("div");
+    div2.setAttribute("class","work");
+    let div3=document.createElement("div");
+    div3.setAttribute("class","layer")
+     let h3=document.createElement("h3");
+     h3.innerText="Quick view"
+     h3.addEventListener("click",()=>{
+        window.location.href="./view.html"
+     })
+     let p=document.createElement("p");
+     p.innerText="keep shopping"
+     div3.append(h3,p);
+    let price=document.createElement("h2");
+    price.innerHTML=el.Price;
+    let totprice=document.createElement("h4");
+    totprice.innerHTML=el.totprice;
+    div1.append(totprice,price)
+    div2.append(image_url,div3)
+    div.append(div2,name,div1);
+    products5.append(div);
+    })
+}
