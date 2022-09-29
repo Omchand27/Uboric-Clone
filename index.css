@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Jost, Arial, sans-serif;
+}
+#head {
+  margin: auto;
+  width: 250px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+#head a {
+  color: tomato;
+  font-weight: bold;
+}
+#categories {
+  display: flex;
+  column-gap: 80px;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 130px;
+  justify-content: center;
+  font-weight: bold;
+}
+#categories p:hover{
+    cursor: pointer;
+    color: tomato;
+    transition: 400ms;
+}
+#top {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 60%;
+  margin: auto;
+  gap: 20px;
+  row-gap: 100px;
+}
+
+.inner div + div {
+  background-color: white;
+  position: relative;
+  bottom: 65px;
+  width: 75%;
+  height: 100px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+h1 {
+  font-weight: light;
+  text-align: center;
+  font-size: 25px;
+}
+h1 + p {
+  text-align: center;
+}
+#top > div > div > img:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+  transition: 300ms;
+  opacity: 80%;
+  filter: brightness(80%);
+}
+#top div img {
+  width: 100%;
+  transition: 300ms;
+  opacity: 100%;
+  transition: filter 0.3 ease;
+  filter: brightness(100%);
+}
+
+#top > div > div {
+  overflow: hidden;
+}
+#id{
+    width: 250px;
+    height: 250px;
+  
+}
+.garments{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+}
+#middle h2{
+    text-align: center;
+}
+.garments>div{
+    width: 80%;
+    margin: auto;
+}
+.under{
+    width: 60%;
+}
+.garments div img{
+    margin-left: 50px;
+}
+.garments div p{
+    text-align: center;
+}
