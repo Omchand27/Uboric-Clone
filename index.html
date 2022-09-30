@@ -4,41 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/5f044e8f73.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="./styles/index.css"/>
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/5f044e8f73.js" crossorigin="anonymous"></script>
+  </head>
 <body>
-    <!-- navbar -->
-   <div id="navbar">
-   </div>
-
-
-   <!-- slides -->
-   <div id="slider">
     
-    <button class="btn"><a href="Categories">Shop Now<i class="fa-solid fa-arrow-right"></i><a></a></button>
-    <span class="arrow prev">&#10094;</span>
-    <span class="arrow next">&#10095;</span>   
+  <div id="navbar">
+    <div class="dis">FOR ONLINE PAYMENT EXTRA ₹5% DISCOUNT ON ORDERS ABOVE ₹500</div>
+  </div>
+
+
+<div id="nav">
+  
 </div>
 
 
 
-<!--3 div -->
+
+<div id="mySearch" class="search" style="width: 450px;">
+  <div id="top-search">
+      <h4>Search Products</h4>
+      <a href="#"><i class="fa-solid fa-x" onclick="closeSearch()"></i></a>
+  </div>
+  <hr>
+  <div id="box">
+      <select name="" id="search-cat">
+          <option value="All Categories">All Categories</option>
+          <option value="Anniversary">Anniversary</option>
+          <option value="Anti puncture Liquid">Anti puncture Liquid</option>
+          <option value="Bathroom Accessories">Bathroom Accessories</option>
+          <option value="Best Seller">Best Seller</option>
+          <option value="Bra Sets">Bra Sets</option>
+          <option value="Chopper">Chopper</option>
+          <option value="Clothing">Clothing</option>
+          <option value="Men's fashion">Men's fashion</option>
+          <option value="Women's Fashion">Women's Fashion</option>
+          <option value="Daywear">Daywear</option>
+          <option value="Electric Appliances">Electric Appliances</option>
+          <option value="Electronics">Electronics</option>
+      </select>
+      <input type="text" placeholder="Search for items" id="search-box">
+      <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+  </div>
+</div>
+
+
+
+<div class="container">
+    
+  <div class="swiper">
+   
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="https://www.uboric.com/wp-content/uploads/2022/09/photo-1567401893414-76b7b1e5a7a5.jpg"></div>
+          <div class="swiper-slide"><img src="https://www.uboric.com/wp-content/uploads/2022/09/image_jpg.jpg"></div>
+          <div class="swiper-slide"><img src="https://www.uboric.com/wp-content/uploads/2022/09/photo-1589512574123-2ba3b33bf066.jpg"></div>
+          <div class="swiper-slide"><img src="https://www.uboric.com/wp-content/uploads/2022/09/photo-1587370560942-ad2a04eabb6d.jpg"></div>
+          <div class="swiper-slide"><img src="https://www.uboric.com/wp-content/uploads/2022/09/photo-1556910633-5099dc3971e8.jpg"></div>
+          
+        </div>
+       
+        <div class="swiper-button-prev">
+                  </div>
+
+        <div class="swiper-button-next"></div>
+    
+
+      </div>
+</div>
+
+
+
+   
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+  
+ autoplay:{
+    delay:2000,
+    disableOnInteraction:false,
+ },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+
 <div class="sub-div">
     <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/kithchen-tools.jpg">
     <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/Air-Tight-Containers.jpg">
-    <img  class="imag" src="https://www.uboric.com/product-category/health-personal-care/">
+    <img  class="imag" src="https://m.media-amazon.com/images/I/81XtkltvQCL._SL1500_.jpg">
 </div>
+
 
 <div id="footer"> </div>
 
-
-
-
-
-   
-   
 </body>
 </html>
-<script  type="module" src="index.js"></script>
+<script type="module" src="index.js"></script>
