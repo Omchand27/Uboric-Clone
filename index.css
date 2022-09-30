@@ -154,4 +154,21 @@ h1 + p {
   cursor: pointer;
   color: rgb(240, 225, 225);
 }
-        
+#bottom-icons{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+#bottom-icons> div{
+  display: flex;
+  margin-right: 20px;
+}
+#bottom-icons>div img{
+  margin-right: 23px;
+}
+#bottom-icons>div img+div p{
+  margin-top: -10px;
+  color: #94979c;
+  font-size: 13px;
+}
