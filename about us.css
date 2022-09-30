@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Jost, Arial, sans-serif;
+}
+
+#bottom-icons {
+  display: flex;
+  width: 70%;
+  margin: 150px auto;
+  justify-content: space-evenly;
+}
+#bottom-icons > div {
+  display: flex;
+  margin-right: 20px;
+}
+#bottom-icons > div img {
+  margin-right: 23px;
+}
+#bottom-icons > div img + div p {
+  margin-top: -10px;
+  color: #94979c;
+  font-size: 13px;
+}
+#story {
+  width: 51%;
+  text-align: left;
+  margin: 200px auto;
+}
+.para {
+  text-align: left;
+  line-height: 30px;
+  color: #94979c;
+  font-size: 16px;
+}
+.para2 {
+  text-align: left;
+  color: #696573;
+}
+.topImg {
+  display: flex;
+  justify-content: center;
+}
