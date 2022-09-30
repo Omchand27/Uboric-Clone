@@ -91,7 +91,7 @@
                                 <a href="view.html">Home</a>
                                 ">>"
                                 <span>
-                                <a href="./shop.html">Shop</a>    
+                                    <a href="./shop.html">Shop</a>
                                 </span>
                             </span>
                         </span>
@@ -112,15 +112,17 @@
             </div>
             <div class="pagination">
                 <ul class="pagination1">
-                    <li><a href="#" class="prev"> <  Prev</a></li>
+                    <li><a href="#" class="prev">
+                            < Prev</a>
+                    </li>
                     <li class="pagenumber active"><a href="./shop1.html">1</a></li>
                     <li class="pagenumber"><a href="./shop2.html">2</a></li>
                     <li class="pagenumber"><a href="./shop3.html">3</a></li>
                     <li class="pagenumber"><a href="./shop4.html">4</a></li>
                     <li class="pagenumber"><a href="./shop5.html">5</a></li>
                     <li class="pagenumber"><a href="./shop.html">6</a></li>
-                    <li><a href="#" class="next">Next  > </a></li>
-                </ul>             
+                    <li><a href="#" class="next">Next > </a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -148,20 +150,20 @@
 </script>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script type="text/javascript">
-    $(document).ready(function(){
-      $('.next').click(function(){
-          $('.pagination1').find('.pagenumber.active').next().addClass('active');
-          $('.pagination1').find('.pagenumber.active').prev().removeClass('active');
-      })
-      $('.prev').click(function(){
-          $('.pagination1').find('.pagenumber.active').prev().addClass('active');
-          $('.pagination1').find('.pagenumber.active').next().removeClass('active');
-      })
-      $('.pagenumber').click(function(){
-          $('.pagination1').find('.pagenumber.active').next().addClass('active');
-          $('.pagination1').find('.pagenumber.active').prev().removeClass('active');
-      })
+    $(document).ready(function () {
+        $('.next').click(function () {
+            $('.pagination1').find('.pagenumber.active').next().addClass('active');
+            $('.pagination1').find('.pagenumber.active').prev().removeClass('active');
+        })
+        $('.prev').click(function () {
+            $('.pagination1').find('.pagenumber.active').prev().addClass('active');
+            $('.pagination1').find('.pagenumber.active').next().removeClass('active');
+        })
+        $('.pagenumber').click(function () {
+            $('.pagination1').find('.pagenumber.active').next().addClass('active');
+            $('.pagination1').find('.pagenumber.active').prev().removeClass('active');
+        })
     })
 </script>
-<script src="./shop.js"></script>
+<script src="./shop1.js"></script>
 <!-- <script src="./pagination.js"></script> -->
