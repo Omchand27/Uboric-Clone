@@ -25,8 +25,7 @@ let ShopData1=[
     { Name: "Plastic LPG Gas Cylinder Trolley Easily Movable Stand with Wheels Flower Pot Stand Use As Carrying Kitchen Items Up To 75 kg (Red)", Price: "₹289.00", totprice: 289, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/81ZFmDWI07L._SL1500_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
     { Name: "STUFF COOL Plastic Gadget Adjustable Slicer – (Black)", Price: "₹169.00", totprice: 169, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51IY7TYL1kL._SL1000_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
     { Name: "STUFF COOL Plastic Gadget Adjustable Slicer – (Black)", Price: "₹169.00", totprice: 169, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51gu1bl7J0L._SL1280_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-    { Name: "Titanic 7 Section Masala Box, 700ml Masala Container For Kitchen, Multipurpose Masala and Rangoli box, Airtight Masala Storage Container (Titanic Masala Box)", Price: "₹189.00", totprice: 189, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71UHY9XCYLL._SL1280_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" },
-  
+    { Name: "Titanic 7 Section Masala Box, 700ml Masala Container For Kitchen, Multipurpose Masala and Rangoli box, Airtight Masala Storage Container (Titanic Masala Box)", Price: "₹189.00", totprice: 189, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/71UHY9XCYLL._SL1280_-370x370.jpg", Image1: "", Image2: "", Categories: "Kitchen Ware" }, 
 ]
 
 let ShopData2=[
@@ -45,7 +44,6 @@ let ShopData2=[
     { Name: "Hepo SS Soap & Shampoo Holder (Psc-1)", Price: "₹948.00", totprice: 948, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/41Usq4gIzXS._SL1000_-670x503.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/41YHZbPWo9S._SL1000_-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/41JWiRAI78S._SL1000_-670x670.jpg", Categories: "Bathroom Accessories" },
     { Name: "Hepo SS Tissue Roll Holder (Psc-1)", Price: "₹969.00", Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/61HRxg1mTQL._SL1200_-670x503.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/51Jirqa6JQL._SL1000_-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/51Gnc72F9L._SL1000_-670x670.jpg", Categories: "Bathroom Accessories" },
     { Name: "Hepo SS Tooth Brush Holder (Psc-1)", Price: "₹757.00", totprice: 757, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51BaAbehDSS._SL1000_-670x503.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/41AShpVODAS._SL1000_-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/61YSFN6WOTS._SL1500_-670x348.jpg", Categories: "Bathroom Accessories" },
-
 ]
 
 let ShopData3=[
@@ -64,7 +62,6 @@ let ShopData3=[
     { Name: "Men shirt magic cotton with digital print in multi colour in green", Price: "₹795.00", totprice: 795, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/WhatsApp-Image-2022-07-26-at-9.20.12-PM-370x370.jpeg", Image1: "", Image2: "", Categories: "Men's fashion" },
     { Name: "Men shirt magic cotton with digital print in multi colour in white", Price: "₹795.00", totprice: 795, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/WhatsApp-Image-2022-07-26-at-9.20.11-PM1-370x370.jpeg", Image1: "", Image2: "", Categories: "Men's fashion" },
     { Name: "Men shirt magic cotton with digital print in multi colour in black", Price: "₹795.00", totprice: 795, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/WhatsApp-Image-2022-07-26-at-9.20.11-PM-370x370.jpeg", Image1: "", Image2: "", Categories: "Men's fashion" },
-
 ]
 
 let ShopData4=[
@@ -82,8 +79,7 @@ let ShopData4=[
     { Name: "Hoop2 Earphones", Price: "₹1,099.00", totprice: 1099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/Hoop2_500x-370x370.jpg", Image1: "", Image2: "", Categories: "Electric Appliances" },
     { Name: "Powerbuds + Power Bank", Price: "₹3,999.00", totprice: 3999, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/POwerbudspro_0000s_0000_002_500x-370x309.jpg", Image1: "", Image2: "", Categories: "Electric Appliances" },
     { Name: "Powerbuds Sweat Proof TWS", Price: "₹3,499.00", totprice: 3499, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/PowerBuds_0000_500_500x-370x309.jpg", Image1: "", Image2: "", Categories: "Electric Appliances" },
-    { Name: "Ace Powerbank", Price: "₹1,299.00", totprice: 1299, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/Ace-1_500x-370x370.jpg", Image1: "", Image2: "", Categories: "Electric Appliances" },
-   
+    { Name: "Ace Powerbank", Price: "₹1,299.00", totprice: 1299, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/Ace-1_500x-370x370.jpg", Image1: "", Image2: "", Categories: "Electric Appliances" },   
 ]
 
 let ShopData5=[
@@ -102,7 +98,6 @@ let ShopData5=[
     { Name: "Risentshop Silicone Toilet Brush with Holder Stand , Brush for Bathroom Cleaning, Cleaning Silicone Brush and Holder (Multi Color, Pack of 1)", Price: "₹389.00", totprice: 389, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/7-1.jpg", Image1: "", Image2: "", Categories: "Household Supplies" },
     { Name: "Shopiable Store Portable Toothbrush, Tongue Cleaner Holder Case Traveling, Outdoor, Use to Storage & Carry Case Storage Box Cover Organizer (3)", Price: "₹249.00", totprice: 249, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/1-670x670.jpg", Image1: "", Image2: "", Categories: "Household Supplies" },
     { Name: "Mobile Holder (Black)", Price: "₹101.00", totprice: 101, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/51qFdGuV30L._SL1200_-670x670.jpg", Image1: "", Image2: "", Categories: "Household Supplies" },
-
 ]
 
 
@@ -260,8 +255,6 @@ function display(ShopData4){
     products4.append(div);
     })
 }
-
-
 
 let products5=document.getElementById("products");
 function display(ShopData5){
