@@ -8,9 +8,10 @@ const navbar=()=>{
 <div id="nav-mid">
 <ul>
     <li><a href="index.html">Home</a></li>
-    <li><a href="#">About</a></li>
+    <li><a href="#">About Us</a></li>
     <li class="shop"><a href="#">Shop</a></li>
     <li class="cat"><a href="#">Caterogies</a>
+    <li class="shop"><a href="contactus.html">Contact Us</a></li>
          <div class="submenu-1">
             <ul>
              <li class="hover"><a href="">Clothing</a>
@@ -68,7 +69,6 @@ const navbar=()=>{
          </div>
     
     </li>
-    <li class="shop"><a href="contactus.html">Contact</a></li>
 </ul>
 
 </select>
