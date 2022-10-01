@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    #container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 500px;
+      width: 50%;
+      margin: auto;
+    }
+    form {
+      display: grid;
+      row-gap: 20px;
+      background-color: white;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      margin-top: 500px;
+      padding: 100px;
+      width: 100%;
+    }
+    form input {
+      padding: 10px;
+    }
+    .submit {
+      border: 0;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+    }
+    p{
+        margin-top: 300px;
+        text-align: center;
+    }
+  </style>
+  <body>
+    <div id="container">
+      <form>
+        <input type="text" id="name" placeholder="Full Name" />
+        <input type="text" id="uname" placeholder="Username" />
+        <input type="password" id="pass" placeholder="Password" />
+        <input type="number" id="num" placeholder="Phone Number" />
+        <input type="date" id="dob" placeholder="DOB" />
+        <input class="submit" type="submit" />
+      </form>
+    </div>
+    <p>Login <a href="index.html">Home</a></p>
+  </body>
+</html>
+<script>
+  document.querySelector("form").addEventListener("submit", stored);
+
+  let storage = JSON.parse(localStorage.getItem("data")) || [];
+
+  function stored(e) {
+    e.preventDefault();
+
+    let name = document.getElementById("name").value;
+    let uname = document.getElementById("uname").value;
+    let pass = document.getElementById("pass").value;
+    let num = document.getElementById("num").value;
+    let dob = document.getElementById("dob").value;
+
+    let obj = {
+      name,
+      uname,
+      pass,
+      num,
+      dob,
+    };
+    localStorage.setItem("data", JSON.stringify(obj));
+  }
+</script>

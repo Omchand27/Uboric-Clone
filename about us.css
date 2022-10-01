@@ -22,22 +22,23 @@ body {
   color: #94979c;
   font-size: 13px;
 }
-#story {
-  width: 51%;
-  text-align: left;
-  margin: 200px auto;
+#story{
+    width: 51%;
+    text-align: left;
+    margin: 200px auto;
 }
-.para {
-  text-align: left;
-  line-height: 30px;
-  color: #94979c;
-  font-size: 16px;
+.para{
+    text-align: left;
+    line-height: 30px;
+    color: #94979c;
+    font-size: 16px;
 }
-.para2 {
-  text-align: left;
-  color: #696573;
+.para2{
+    text-align: left;
+    color: #696573;
 }
-.topImg {
-  display: flex;
-  justify-content: center;
+.topImg{
+    display: flex;
+    justify-content: center;
 }
+
