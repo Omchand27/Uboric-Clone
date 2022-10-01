@@ -105,11 +105,20 @@ h1 + p {
 }
 #arrivals{
   display: grid;
-  overflow: auto;
-  overscroll-behavior-inline: contain;
+  overflow-y: auto;
+  /* overscroll-behavior-inline: contain; */
   grid-template-columns: repeat(8, 1fr);
   height: 400px;
   gap: 30px;
+}
+#arrivals::-webkit-scrollbar{
+  background-color: white;
+}
+/* #arrivals::-webkit-scrollbar-track{
+  width: 2px;
+} */
+#arrivals::-webkit-scrollbar-thumb{
+  background-color: red;
 }
 #arrivals div img{
  height: 250px;

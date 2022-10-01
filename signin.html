@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: #001a25;
+    }
+    h1{
+        text-align: center;
+    }
+    #toggle {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: skyblue;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #toggle::before {
+      content: "";
+      position: absolute;
+      width: 28px;
+      height: 2px;
+      background-color: white;
+      transform: translate(-5px);
+      transition: 0.2s;
+    }
+    #toggle::after {
+      content: "";
+      position: absolute;
+      width: 28px;
+      height: 2px;
+      background-color: white;
+      transform: translate(5px);
+      transition: 0.2s;
+    }
+    #toggle.active::before {
+      transform: translate(0px) rotate(45deg);
+    }
+    #toggle.active::after {
+      transform: translate(0px) rotate(-45deg);
+    }
+    #sidebar {
+      position: fixed;
+      top: 0;
+      right: -400px;
+      width: 400px;
+      height: 100vh;
+      background-color: white;
+      transition: 0.5s;
+    }
+    #sidebar.active {
+      right: 0px;
+    }
+    form{
+        width: 50%;
+        margin: 100px auto;
+    }
+    input{
+        margin-top: 30px;
+        width: 90%;
+        padding: 10px;
+    }
+    .submit{
+        padding: 10px;
+        border: 0;
+        background-color: black;
+        color: white;
+        margin-left: 10px;
+    }
+    p{
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div id="toggle"></div>
+    <div id="sidebar">
+        <h1>Sign In</h1>
+      <form id="form">
+        <input type="text" id="name" placeholder="Name" />
+        <input type="text" id="pass" placeholder="Password" />
+        <input class="submit" type="submit" />
+      </form>
+      <p>Didn't Sign up? <a href="signup.html">Click here</a></p>
+    </div>
+  </body>
+</html>
+<script>
+  const toggle = document.getElementById("toggle");
+  const sidebar = document.getElementById("sidebar");
+  const form= document.getElementById("form")    
+
+  document.onclick = function (e) {
+    if (e.target.id !== "sidebar" && e.target.id !== "toggle" && e.target.id !== "form") {
+      toggle.classList.remove("active");
+      sidebar.classList.remove("active");
+      form.classList.remove("active");
+    }
+  };
+
+  toggle.onclick = function () {
+    toggle.classList.toggle("active");
+    sidebar.classList.toggle("active");
+    form.classList.toggle("active")
+  };
+</script>
