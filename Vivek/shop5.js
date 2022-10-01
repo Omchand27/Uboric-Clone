@@ -19,6 +19,7 @@ let ShopData5=[
 
 
 
+display(ShopData5);
 
 let products5=document.getElementById("products");
 function display(ShopData5){
@@ -56,5 +57,3 @@ function display(ShopData5){
     products5.append(div);
     })
 }
-
-display(ShopData5);

@@ -11,13 +11,13 @@
 }
 .container .left{
     width: 25%;
-    border: 1px solid black;
-    height: 1000px;
+    /* border: 1px solid black; */
+    height: auto;
 
 }
 .container .right{
     width: 70%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: auto;
 }
 .right .head{
@@ -29,14 +29,15 @@
 }
 .default{
     position: relative;
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 10px 20px;
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
-    gap: 30px;
+    /* gap: 0px; */
     border: 0.5px solid gray;
     opacity: 0.8;
+    border-radius: 0px;
 }
 .default option{
     line-height: 10px;
@@ -138,7 +139,7 @@
 /* ---------left side dropdown----------------------- */
 .dropdown{
     position: relative;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     width: 300px;
     height: 50px;
 }
@@ -750,3 +751,137 @@ border-radius: 50%;
     cursor: pointer;
 } */
 
+/* -----------------filter-------------------------- */
+
+.breadcumb{
+    margin-top: 60px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.breadcumb a{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.breadcumb a:hover{
+    color: red;
+}
+
+.breadcumb span{
+    margin: 0 5px;   
+}
+
+.filter-header{
+    display: flex;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+
+
+.filter-list li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+.filter-list li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+ }
+.filter-list li a:hover {
+    list-style: none;
+    color: rgb(145, 6, 6);
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.filter-toggle-box{
+    display: none;
+}
+.price-range{
+    margin-left: 20px;
+}
+.price-range span{
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+.price-range input{
+    width: 20%;
+    outline: none;
+    padding: 5px;
+   border-radius: 20px;
+}
+.group-checkbox{
+    margin-top: 20px;
+    text-align: left;
+}
+.group-checkbox input{
+    opacity: 0;
+    height: 0;
+    width: 10px;
+    cursor: pointer;
+ 
+}
+.group-checkbox label{
+    cursor: pointer;
+    padding-left: 40px;
+    position: relative;
+}
+.group-checkbox label::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -4px;
+    width: 22px;
+    height: 22px;
+    background-color:#fff;
+    border: 2px solid #7b7979;
+}
+.group-checkbox label>i{
+    position: absolute;
+    left: 2px;
+    top: -2px;
+    color: #000;
+    transform: scale(0);
+    font-size: 21px;
+    transition: transform 0.1s ease-in-out ;
+} 
+.group-checkbox label{
+    font-size: 16px;
+    color: #333;
+}
+.group-checkbox label:hover{
+    font-size: 17px;
+    color: #009;
+}
+.group-checkbox input:checked + label i{
+  transform: scale(1);
+
+}
+.search{
+    margin-left: 30px;
+    padding: 6px 6px ;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.left {
+    padding-left: 40px;
+}
+/* #sliderBox{
+    border: 1px solid red;
+    height: 80px;  
+}
+#slider{
+    color: transparent;
+    height: 10px;
+    width: 250px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+#slider::-webkit-slider-thumb{
+    opacity: 1;
+    border: 1px solid black;
+    border-radius: 100px;
+} */

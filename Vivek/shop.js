@@ -102,10 +102,16 @@ let ShopData = [
     { Name: "Libra silver necklace", Price: "₹1,099.00", totprice: 1099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-05-13_18-34-39.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-34-39-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-34-42-670x670.jpg", Categories: "Jewellery" },
     { Name: "Bender rosegold necklace", Price: "₹1,099.00", totprice: 1099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-05-13_18-28-43.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-28-43-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-28-42-670x670.jpg", Categories: "Jewellery" },
     { Name: "Looper gold necklace", Price: "₹1,099.00", totprice: 1099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-05-13_18-24-27.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-24-27-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_18-24-26-670x670.jpg", Categories: "Jewellery" },
-    { Name: "Garce rosegold necklace", Price: "₹1,099.00", totprice: 1099, Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-05-13_17-56-46-Copy.jpg", Image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_17-56-45-Copy-670x670.jpg", Image2: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_17-56-45-Copy-670x670.jpg", Categories: "Jewellery" },
+    { Name: "Garce rosegold necklace",
+     Price: "₹1,099.00", totprice: 1099, 
+     Image: "https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/photo_2022-05-13_17-56-46-Copy.jpg",
+      Image1: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_17-56-45-Copy-670x670.jpg", 
+      Image2: "https://www.uboric.com/wp-content/uploads/2022/08/photo_2022-05-13_17-56-45-Copy-670x670.jpg",
+       Categories: "Jewellery" },
 
 ]
 
+// localStorage.setItem("list" , JSON.stringify(ShopData)) ;
 
 
 let products = document.getElementById("products");
@@ -113,6 +119,9 @@ function display(ShopData) {
     ShopData.innerHTML = null;
     ShopData.forEach(function (el) {
         let div = document.createElement("div");
+        div.addEventListener("click", ()=>{
+            localStorage.setItem("products",JSON.stringify(el));
+        })
         let name = document.createElement("h3");
         name.innerText = el.Name;
         let image_url = document.createElement("img");
@@ -142,8 +151,79 @@ function display(ShopData) {
         div2.append(image_url, div3)
         div.append(div2, name, div1);
         products.append(div);
+        // console.log(totprice.innerHTML);
+
     })
 }
-display(ShopData);
 
+display(ShopData);
 //console.log(ShopData.length);
+
+// -----------------filter-------------------
+// console.log(totprice.innerHTML);
+// function sortLH(){   
+//     window.location.href="shop1.html"
+//     ShopData = ShopData.sort(function (a, b){    
+//     //   console.log(a.totprice)//17
+//     //   console.log('data:', Shopdata);
+//       return a.totprice-b.totprice //40-100 , -ve   //18
+//     });
+//        //19
+//     display(ShopData);   //20
+//     //but remeber when you are going to append something go and make container empty 
+//     //function appenddata wale mei 53 line pr   #21
+//   }
+//   function sortHL(){
+//     ShopData = ShopData.sort(function (a, b){    
+//       return  b.totprice-a.totprice  //+ve   
+//     });  
+//     display(ShopData); 
+//  }
+
+
+
+//  ----------price slider-----------------
+
+// //  slider ....
+// $( function() {
+//     $( "#slider" ).slider({
+//       range: true,
+//       min: 0,
+//       max: 3995,
+//       values: [ 96, 3995 ],
+//       slide: function( event, ui ) {
+//         $( "#amount" ).val( "₹" + ui.values[ 0 ] + " - ₹" + ui.values[ 1 ] );
+//         var min = ui.values[ 0 ];
+//         var max = ui.values[ 1 ] ;
+//         filter(min,max) ;
+//       }
+//     });
+// $( "#amount" ).val( "₹" + $( "#slider" ).slider( "values", 0 ) +
+//       " - ₹" + $( "#slider" ).slider( "values", 1 ) );
+
+ 
+
+//   } );
+
+//   function filter(min,max){
+//       var filterList = Shopdata.filter(function(el){
+//           if(Number(el.totprice) >= min && Number(el.totprice)<=max){
+//               return el 
+//           } 
+//       });
+//       display(filterList);
+//     //   console.log(values) ;
+//   }
+
+// ---------price slider end--------------
+
+
+let priceselected = document.querySelector("#default").value
+console.log(priceselected)
+// .addEventListener("onchange", function(){
+//     ShopData.sort(function(a,b){
+//         return a.totprice - b.totprice;
+//     })
+//     displayProduct(ShopData);
+//     console.log(ShopData);
+// })
