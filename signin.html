@@ -52,8 +52,8 @@
     #sidebar {
       position: fixed;
       top: 0;
-      right: -400px;
-      width: 400px;
+      right: 0px;
+      /* width: 400px;   */
       height: 100vh;
       background-color: white;
       transition: 0.5s;
@@ -80,10 +80,14 @@
     p{
       text-align: center;
     }
+    #sidebar img{
+      width: 20px;
+    }
   </style>
   <body>
-    <div id="toggle"></div>
+    <div id="toggle" onclick="enable()"></div>
     <div id="sidebar">
+      <img onclick="zero()" id="close" src="https://cdn-icons-png.flaticon.com/512/2961/2961937.png" alt="">
         <h1>Sign In</h1>
       <form id="form">
         <input type="text" id="name" placeholder="Name" />
@@ -99,17 +103,24 @@
   const sidebar = document.getElementById("sidebar");
   const form= document.getElementById("form")    
 
-  document.onclick = function (e) {
-    if (e.target.id !== "sidebar" && e.target.id !== "toggle" && e.target.id !== "form") {
-      toggle.classList.remove("active");
-      sidebar.classList.remove("active");
-      form.classList.remove("active");
-    }
-  };
+  // document.onclick = function (e) {
+  //   if (e.target.id !== "sidebar" && e.target.id !== "toggle") {
+  //     toggle.classList.remove("active");
+  //     sidebar.classList.remove("active");
+  //   }
+  // };
 
-  toggle.onclick = function () {
-    toggle.classList.toggle("active");
-    sidebar.classList.toggle("active");
-    form.classList.toggle("active")
-  };
+  // toggle.onclick = function () {
+  //   toggle.classList.toggle("active");
+  //   sidebar.classList.toggle("active");
+  // };
+
+    function zero(){
+      let bar= document.getElementById("sidebar")
+      bar.style.width="0px"
+    }
+    function enable(){
+      let bar= document.getElementById("sidebar")
+      bar.style.width="400px"
+    }
 </script>
