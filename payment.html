@@ -6,25 +6,174 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment</title>
     <script src="https://kit.fontawesome.com/067eedc3e0.js" crossorigin="anonymous"></script>
-    
+    <!-- <link rel="stylesheet" href="./styles/navbar.css"> -->
     <link rel="stylesheet" href="payment.css">
 </head>
+<style>
+    body {
+  margin: 0px;
+  padding: 0px;
+}
+.dis {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#nav {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  text-indent: 0px;
+}
+#nav #nav-start img {
+  margin-top: 3%;
+  margin-left: 20%;
+  height: 7vh;
+}
+/* nav-mid */
+#nav-mid {
+  /* border: 1px solid red; */
+  width: 50%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#nav-mid a {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: relative;
+}
+#nav-mid ul li {
+  list-style: none;
+}
+#nav-mid ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  /* border: 1px solid blue; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.submenu-1 {
+  display: none;
+}
+#nav-mid ul li:hover .submenu-1 {
+  display: block;
+  position: absolute;
+  background-color: white;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 0.4%;
+  visibility: visible;
+  padding-bottom: 10px;
+}
+#nav-mid ul li:hover .submenu-1 ul {
+  display: block;
+  margin: 10px;
+  visibility: visible;
+}
+#nav-mid ul li:hover .submenu-1 ul li {
+  width: 100%;
+  padding: 5px;
+  /* border-bottom:1px dotted black; */
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+  margin-top: 10px;
+  visibility: visible;
+}
+#nav-mid .submenu-1 ul li a {
+  width: 80%;
+  visibility: visible;
+}
+#nav-mid .submenu-1 ul li a:hover {
+  color: #b3b3b3;
+}
+#nav-mid .submenu-1 ul li a {
+  position: relative;
+}
+#nav #nav-mid ul li a:hover {
+  color: #ff9c9c;
+}
+#nav #nav-mid ul li a::after {
+  content: "";
+  width: 0;
+  height: 1%;
+  background-color: black;
+  position: absolute;
+  border-radius: 2px;
+  top: 100%;
+  left: 0;
+  transition: 0.6s;
+}
+#nav #nav-mid ul li a:hover::after {
+  width: 100%;
+}
+.submenu-2 {
+  display: none;
+}
+.hover:hover .submenu-2 {
+  position: absolute;
+  display: block;
+  margin-top: -10px;
+  padding: 10px;
+  padding-bottom: 10px;
+  margin-left: 910px;
+  width: 100%;
+  background-color: white;
+  visibility: visible;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#nav-end {
+  width: 20%;
+  /* margin-right: 150px; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.fa-solid,
+.fa-regular {
+  color: black;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+</style>
 <body>
-    <div id="navbar">
-        
+    <div id="nav">
+       
     </div>
-
+ 
     <h2>Checkout</h2>
     <div id="checkout">
         <div id="information">
             <p>Billing Details</p>
             <form action="" class="formdata">
                 <label for="name">First Name *</label><br>
-                <input type="text" id="name" required><br>
+                <input class="boxes" type="text" id="name" required><br>
                 <label for="name">Last Name *</label><br>
-                <input type="text" id="surname" required><br>
+                <input class="boxes" type="text" id="surname" required><br>
                 <label for="name">Company name (optional)</label><br>
-                <input type="text" id="company"><br>
+                <input class="boxes" type="text" id="company"><br>
                 <label for="name">Country / Region *</label><br>
             <select id="country" name="country">
                 <option value="none" selected disabled hidden>Select an Option</option>
@@ -274,8 +423,8 @@
                 <option value="Zimbabwe">Zimbabwe</option>
             </select><br>
                 <label for="name">Street address *</label><br>
-                <input type="text" id="street" placeholder="House number and street name" required><br>
-                <input type="text" class="streets" placeholder="Apartment, suite, unit, etc. (optional)"><br>
+                <input class="boxes" type="text" id="street" placeholder="House number and street name" required><br>
+                <input class="boxes" type="text" class="streets" placeholder="Apartment, suite, unit, etc. (optional)"><br>
                 <label for="name">State *</label><br>
                 <select name="state" id="state" class="form-control">
                     <option value="none" selected disabled hidden>Select an Option</option>
@@ -317,16 +466,16 @@
                     <option value="West Bengal">West Bengal</option>
                 </select><br>
                 <label for="name">Town / City *</label><br>
-                <input type="text" id="city" required><br>                                                                                                      
+                <input class="boxes" type="text" id="city" required><br>                                                                                                      
                 <label for="name">PIN Code *</label><br>
-                <input type="number" id="pin" required><br>
+                <input class="boxes" type="number" id="pin" required><br>
                 <label for="name">Phone *</label><br>
-                <input type="number" id="mobile" minlength="10" required><br>
+                <input class="boxes" type="number" id="mobile" minlength="10" required><br>
                 <label for="name">Email address *</label><br>
-                <input type="email" id="email1" required><br>
+                <input class="boxes" type="email" id="email1" required><br>
                 <label for="name">Additional information Order notes (optional)</label><br>
-                <input type="text" id="notes" required><br>
-                
+                <input class="boxes" type="text" id="notes" required><br>
+               
             </form>
         </div>
         <div id="payment">
@@ -356,32 +505,33 @@
             </div>
             <div class="paymethod">
                 <form action="" class="pay">
-                    <input type="radio" name=payment checked>
-                    
+                    <input class="box" type="radio" name=payment checked>
+                   
                 <p id="img0">Cash On delivery</p>
                 <label for=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkl8xxD9C1uxapqfAktRAfDckswHLTNkuhLeNtd432bvK0qivFH1BvaqJmhaHmiODa65s&usqp=CAU" alt=""></label>
             </div>
             <div class="paymethod">
-                <form action="" class="pay">
-                    <input type="radio" name=payment>
-                    
+                <form action="" class="pays">
+                    <input class="om" type="radio" name=payment >
+                   
                 <p id="img1">pay with paytm </p>
                 <label for=""><img src="https://www.uboric.com/wp-content/plugins/woo-paytm-payment-gateway/images/logo.gif" alt=""></label>
             </div>
             <div class="paymethod">
-                <form action="" class="pay">
-                    <input type="radio" name=payment>
+                <form action="" class="pays">
+                    <input class="box" type="radio" name=payment>
                 </form>
                 <p id="img1"></p>
                 <label for=""><img src="https://cdn.razorpay.com/static/assets/logo/payment.svg" alt=""></label>
             </div>
             <p> EMI Available. Pay securely by Credit or Debit card,UPI or Internet Banking through Razorpay.</p>
             <form action="" class="formdata"></form>
-            <input type="submit" value="Place Order" id="payment-btn">
+            <input class="boxs" type="submit" value="Place Order" id="payment-btn">
         </div>
     </div>
-
+    <img src="styles/png/Screenshot (141).png" alt="">
 </body>
 </html>
+ 
+<script type="module" src="payment.js"></script>
 
-<script src="payment.js"></script>

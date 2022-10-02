@@ -1,5 +1,4 @@
 document.querySelector("#payment-btn").addEventListener("click", done);
-
 function done(){
     if(document.querySelector("#name").value == ""){
         alert("Please Fill the First Name")
@@ -23,30 +22,23 @@ function done(){
         location.href="paymentsuccess.html"
     }
 };
-
 let dataArr = [];
-dataArr.push(JSON.parse(localStorage.getItem("product-list")));
-
+dataArr.push(JSON.parse(localStorage.getItem("products")));
 let list = localStorage.getItem("quantity")
-
 function displaydata(dataArr){
     dataArr.forEach(function(ele,i){
         let row = document.createElement("tr")
-
         let td1 = document.createElement("td")
         td1.innerText=ele.Name + " " + "(" + "x" + " " + list +")";
-
         let td2 = document.createElement("td")
         td2.innerText=ele.Price;
-
         row.append(td1, td2)
         document.querySelector("tbody").append(row)
-
         document.querySelector("#subprice").innerText="₹" + (ele.totprice * list);
-
         document.querySelector("#totalprice").innerText="₹" + (ele.totprice * list)
     })
 }
-
 displaydata(dataArr);
-
+import { navbar } from "./components/navbar.js";
+let nav= document.getElementById("nav")
+nav.innerHTML=navbar()

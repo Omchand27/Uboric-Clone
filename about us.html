@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="about us.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <script src="https://kit.fontawesome.com/067eedc3e0.js" crossorigin="anonymous"></script>
     <title>About Us</title>
 </head>
 <body>
+    <div id="nav"></div>
     <div class="topImg">
     <img src="https://i.ibb.co/k65BDZJ/Screenshot-133.png" alt="">
     </div>
@@ -54,5 +57,16 @@
             </div>
         </div>
     </div>
+    <div id="footer"></div>
 </body>
 </html>
+<script type="module">
+    import { navbar, footer, sidebar } from "./components/navbar.js";
+
+let nav = document.getElementById("nav");
+nav.innerHTML = navbar();
+
+let foot = document.getElementById("footer");
+foot.innerHTML = footer();
+
+</script>

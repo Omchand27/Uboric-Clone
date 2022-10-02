@@ -8,13 +8,9 @@ const navbar = () => {
 <div id="nav-mid">
 <ul>
     <li><a href="index.html">Home</a></li>
-
-    <li><a href="#">About Us</a></li>
-    <li class="shop"><a href="#">Shop</a></li>
-    <li><a href="#">About</a></li>
-    <li class="shop"><a href="./Vivek/shop.html">Shop</a></li>
+    <li><a href="about us.html">About</a></li>
+    <li class="shop"><a href="shop.html">Shop</a></li>
     <li class="cat"><a href="#">Caterogies</a>
-    <li class="shop"><a href="contactus.html">Contact Us</a></li>
          <div class="submenu-1">
             <ul>
              <li class="hover"><a href="">Clothing</a>
@@ -72,6 +68,7 @@ const navbar = () => {
          </div>
     
     </li>
+    <li class="shop"><a href="contactus.html">Contact</a></li>
 </ul>
 
 </select>
@@ -83,8 +80,8 @@ const navbar = () => {
   <div class="icon">
   <a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
         <a id="enable" ><i class="fa-solid fa-user" ></i></a>
-        <a href="wishlist.html"> <i class="fa-solid fa-heart"></i></a>
-        <a href="shopping.html"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+        <a> <i class="fa-solid fa-heart"></i></a>
+        <a><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
        </div>
 </div>
 `;

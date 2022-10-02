@@ -1,59 +1,52 @@
 #container{
     width: 90;
     height: 100vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     margin-top: 60px;
 }
-
 #images{
     width: 100%;
     height: 100vh;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
-
 #images > img{
     width: 70%;
     display: block;
     margin: auto
 }
-
 #details{
     width: 100%;
     height: 100vh;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
-
 #details > input{
     width: 20%;
     text-align: center;
     height: 6vh;
     font-size: 30px;
-    border: 1px solid #cdcdcd;
+    border: 1px solid #CDCDCD;
     margin-left: 3%;
     cursor: pointer;
     margin-top: 3%;
 }
-
 #details > button{
     width: 30%;
     height: 8vh;
     margin-left: 3%;
     margin-bottom: 3%;
-    background-color: #1f1f1f;
+    background-color: #1F1F1F;
     color: white;
     font-size: 16px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
 }
-
 #details > button:hover{
     opacity: 0.8;
 }
-
 #images > img + div{
     width: 70%;
     height: 27%;
@@ -64,9 +57,11 @@
     grid-template-columns: repeat(3, 100px);
     gap: 20px;
 }
-
 #images > img + div img{
     width: 100%;
     display: block;
     margin: auto;
+}
+#star{
+    font-family: sans-serif;
 }
