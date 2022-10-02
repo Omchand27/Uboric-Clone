@@ -1,19 +1,21 @@
+body{
+    width:100%}
 .list {
     display: flex;
     list-style: none;
-    margin-left: 300px;
-    font-size: 60px;
-    margin-top:100px;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top:30px;
     color:rgb(138, 128, 128);
    text-decoration: none;
 }
 .wish2{
-    margin-left:45%;
+    margin-left:40%;
     margin-top:10%;
-    font-size: 200px;
+    font-size:60px;
 }
 .wish{
-    font-size: 90px;
+    font-size: 30px;
     margin-left:150px;
   
 }
@@ -21,7 +23,7 @@ table, th,td{
     margin-left:10%;
     padding:10px;
     background-color:rgb(255, 250, 250);
-    font-size: 60px;
+    font-size: 15px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:black;
     width:70%;
