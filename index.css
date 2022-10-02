@@ -22,10 +22,10 @@ body {
   justify-content: center;
   font-weight: bold;
 }
-#categories p:hover{
-    cursor: pointer;
-    color: tomato;
-    transition: 400ms;
+#categories p:hover {
+  cursor: pointer;
+  color: tomato;
+  transition: 400ms;
 }
 #top {
   display: grid;
@@ -72,38 +72,37 @@ h1 + p {
 #top > div > div {
   overflow: hidden;
 }
-#id{
-    width: 250px;
-    height: 250px;
-  
+#id {
+  width: 250px;
+  height: 250px;
 }
-.garments{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 80%;
-    margin: auto;
+.garments {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: auto;
 }
-#middle h2{
-    text-align: center;
+#middle h2 {
+  text-align: center;
 }
-.garments>div{
-    width: 80%;
-    margin: auto;
+.garments > div {
+  width: 80%;
+  margin: auto;
 }
-.under{
-    width: 60%;
+.under {
+  width: 60%;
 }
-.garments div img{
-    margin-left: 50px;
+.garments div img {
+  margin-left: 50px;
 }
-.garments div p{
-    text-align: center;
+.garments div p {
+  text-align: center;
 }
-#bottom h2{
+#below .h2 {
   text-align: center;
   margin-bottom: 100px;
 }
-#arrivals{
+#arrivals {
   display: grid;
   overflow-y: auto;
   /* overscroll-behavior-inline: contain; */
@@ -111,23 +110,23 @@ h1 + p {
   height: 400px;
   gap: 30px;
 }
-#arrivals::-webkit-scrollbar{
+#arrivals::-webkit-scrollbar {
   background-color: white;
 }
 /* #arrivals::-webkit-scrollbar-track{
   width: 2px;
 } */
-#arrivals::-webkit-scrollbar-thumb{
+#arrivals::-webkit-scrollbar-thumb {
   background-color: red;
 }
-#arrivals div img{
- height: 250px;
+#arrivals div img {
+  height: 250px;
 }
-.bottom-para{
+.bottom-para {
   margin-top: 100px;
   text-align: center;
 }
-.bottom-para p{
+.bottom-para p {
   margin: auto;
   text-align: center;
   width: 60%;
@@ -135,48 +134,48 @@ h1 + p {
   line-height: 30px;
   color: #94979c;
 }
-#benefits{
+#benefits {
   display: flex;
   margin: 100px auto;
   width: 60%;
   justify-content: space-between;
 }
-#benefits div img{
+#benefits div img {
   width: 550px;
 }
-#benefits div p{
+#benefits div p {
   margin-top: 30px;
   color: #94979c;
 }
-#benefits div p+button{
+#benefits div p + button {
   padding: 10px;
   margin-top: 10px;
   padding-left: 15px;
-  padding-right: 15px ;
+  padding-right: 15px;
   background-color: black;
   color: white;
   font-weight: bold;
   font-family: sans-serif;
   border-radius: 5px;
 }
-#benefits div p+button:hover{
+#benefits div p + button:hover {
   cursor: pointer;
   color: rgb(240, 225, 225);
 }
-#bottom-icons{
+#bottom-icons {
   display: flex;
   width: 70%;
   margin: auto;
   justify-content: space-evenly;
 }
-#bottom-icons> div{
+#bottom-icons > div {
   display: flex;
   margin-right: 20px;
 }
-#bottom-icons>div img{
+#bottom-icons > div img {
   margin-right: 23px;
 }
-#bottom-icons>div img+div p{
+#bottom-icons > div img + div p {
   margin-top: -10px;
   color: #94979c;
   font-size: 13px;

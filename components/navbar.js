@@ -97,10 +97,10 @@ const navbar=()=>{
 const footer=()=>{
     return `
     <footer>
-    <h2>Want style Ideas and Treats?</h2>
+    <h2 class="subhead">Want style Ideas and Treats?</h2>
     <form action="" id="footForm">
         <input type="email" placeholder="Enter Email *" id="email" required="">
-        <button>Subscribe</button>
+        <button id="sub">Subscribe</button>
     </form>
     <hr>
     <div id="footInfo">
@@ -129,13 +129,13 @@ const footer=()=>{
             <div class="sublink">
                 <h6>CONTACT</h6>
                 <p>Customer Care</p>
-                <li>Contact Support Available</li>
-                <li>Mon To Sat : 10:00 Am to 6:00 Pm</li>
-                <li>E-mail</li>
-                <li>uboricllp@gmail.com</li>
-                <li>Mobile</li>
-                <li>+91 97243 82162</li>
-                <li>+91 82000 99386</li>
+                <p>Contact Support Available</p>
+                <p>Mon To Sat : 10:00 Am to 6:00 Pm</p>
+                <p>E-mail</p>
+                <p>uboricllp@gmail.com</p>
+                <p>Mobile</p>
+                <p>+91 97243 82162</p>
+                <p>+91 82000 99386</p>
             </div>
         </div>
         
