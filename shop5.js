@@ -19,6 +19,7 @@ let ShopData5=[
 
 
 
+display(ShopData5);
 
 let products5=document.getElementById("products");
 function display(ShopData5){
@@ -57,4 +58,12 @@ function display(ShopData5){
     })
 }
 
-display(ShopData5);
+
+
+import { navbar,footer } from "./components/navbar.js";
+
+let nav= document.getElementById("nav")
+nav.innerHTML=navbar()
+
+let foot= document.getElementById("footer")
+foot.innerHTML=footer()
