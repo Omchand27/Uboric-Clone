@@ -55,3 +55,12 @@ function display(ShopData4){
     })
 }
 display(ShopData4);
+
+
+import { navbar,footer } from "./components/navbar.js";
+
+let nav= document.getElementById("nav")
+nav.innerHTML=navbar()
+
+let foot= document.getElementById("footer")
+foot.innerHTML=footer()
