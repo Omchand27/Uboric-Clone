@@ -11,6 +11,7 @@
       padding: 0;
       margin: 0;
       background-color: #f5f5f5;
+      box-sizing: border-box;
     }
     #container {
       display: flex;
@@ -18,7 +19,7 @@
       justify-content: center;
       height: 500px;
       width: 50%;
-      margin: auto;
+      margin: 10% auto;
     }
     form {
       display: grid;
@@ -26,8 +27,9 @@
       background-color: white;
       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
       margin-top: 500px;
-      padding: 100px;
+      padding: 80px;
       width: 100%;
+      margin-bottom: 50%;
     }
     form input {
       padding: 10px;
@@ -38,14 +40,26 @@
       color: white;
       cursor: pointer;
     }
-    p{
-        margin-top: 300px;
-        text-align: center;
+    p {
+      margin-top: 100px;
+      text-align: center;
+    }
+    .signUp {
+      text-align: center;
+    }
+    .up {
+      width: 100%;
+    }
+    .down {
+      width: 100%;
     }
   </style>
   <body>
+    <img class="up" src="/styles/png/Screenshot (139).png" alt="" />
+    <div id="nav"></div>
     <div id="container">
       <form>
+        <h1 class="signUp">Sign Up</h1>
         <input type="text" id="name" placeholder="Full Name" />
         <input type="text" id="uname" placeholder="Username" />
         <input type="password" id="pass" placeholder="Password" />
@@ -54,10 +68,12 @@
         <input class="submit" type="submit" />
       </form>
     </div>
-    <p>Login <a href="index.html">Home</a></p>
+    <p class="home">Login <a href="index.html">Home</a></p>
+    <div id="footer"></div>
+    <img class="down" src="styles/png/Screenshot (141).png" alt="" />
   </body>
 </html>
-<script>
+<script type="module">
   document.querySelector("form").addEventListener("submit", stored);
 
   let storage = JSON.parse(localStorage.getItem("data")) || [];
@@ -71,13 +87,18 @@
     let num = document.getElementById("num").value;
     let dob = document.getElementById("dob").value;
 
-    let obj = {
-      name,
-      uname,
-      pass,
-      num,
-      dob,
-    };
-    localStorage.setItem("data", JSON.stringify(obj));
+    if (name == "" && uname == "" && pass == "" && num == "" && dob == "") {
+      alert("Fill all the details");
+    } else {
+      let obj = {
+        name,
+        uname,
+        pass,
+        num,
+        dob,
+      };
+      localStorage.setItem("data", JSON.stringify(obj));
+      location.href="index.html"
+    }
   }
 </script>

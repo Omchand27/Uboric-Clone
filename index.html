@@ -6,14 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/067eedc3e0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles/navbar.css">
     <title>Uboric</title>
 </head>
 <body>
+    <div id="sidebar"></div>
     <div id="navbar">
         <div class="dis">FOR ONLINE PAYMENT EXTRA ₹5% DISCOUNT ON ORDERS ABOVE ₹500</div>
       </div>
     <div id="nav"></div>
+    <div class="container">
+    
+        <div class="swiper">
+         
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="https://www.uboric.com/wp-content/uploads/2022/09/photo-1567401893414-76b7b1e5a7a5.jpg"></div>
+                <div class="swiper-slide"><img src="https://www.uboric.com/wp-content/uploads/2022/09/image_jpg.jpg"></div>
+                <div class="swiper-slide"><img src="https://www.uboric.com/wp-content/uploads/2022/09/photo-1589512574123-2ba3b33bf066.jpg"></div>
+                <div class="swiper-slide"><img src="https://www.uboric.com/wp-content/uploads/2022/09/photo-1587370560942-ad2a04eabb6d.jpg"></div>
+                <div class="swiper-slide"><img src="https://www.uboric.com/wp-content/uploads/2022/09/photo-1556910633-5099dc3971e8.jpg"></div>
+                
+              </div>
+             
+              <div class="swiper-button-prev">
+                        </div>
+      
+              <div class="swiper-button-next"></div>
+          
+      
+            </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+  
+ autoplay:{
+    delay:2000,
+    disableOnInteraction:false,
+ },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+
+<div class="sub-div">
+    <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/kithchen-tools.jpg">
+    <img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/Air-Tight-Containers.jpg">
+    <img  class="imag" src="https://m.media-amazon.com/images/I/81XtkltvQCL._SL1500_.jpg">
+</div>
    <div id="head">
     <h2 class="h2">Shop By Category</h2>
     <a href="">Clothing</a>
@@ -89,7 +140,7 @@
             </div>
             <div>
                 <img src="https://www.uboric.com/wp-content/uploads/2022/09/61nbV0UE0zL-670x670.jpg" alt="">
-                <p>Eletric Mini Processor with USB cable</p>
+                <p>Electric Mini Processor with USB cable</p>
             </div>
             <div>
                 <img src="https://www.uboric.com/wp-content/uploads/2022/09/photo_2022-09-18_10-32-29-370x370.jpg" alt="">
@@ -169,4 +220,8 @@
     <div id="footer"></div>
 </body>
 </html>
+   
+    
+
+
 <script src="index.js" type="module"></script>

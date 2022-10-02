@@ -7,9 +7,6 @@
     <title>Document</title>
   </head>
   <style>
-    body {
-      background-color: #001a25;
-    }
     h1{
         text-align: center;
     }
@@ -42,12 +39,6 @@
       background-color: white;
       transform: translate(5px);
       transition: 0.2s;
-    }
-    #toggle.active::before {
-      transform: translate(0px) rotate(45deg);
-    }
-    #toggle.active::after {
-      transform: translate(0px) rotate(-45deg);
     }
     #sidebar {
       position: fixed;
@@ -99,22 +90,6 @@
   </body>
 </html>
 <script>
-  const toggle = document.getElementById("toggle");
-  const sidebar = document.getElementById("sidebar");
-  const form= document.getElementById("form")    
-
-  // document.onclick = function (e) {
-  //   if (e.target.id !== "sidebar" && e.target.id !== "toggle") {
-  //     toggle.classList.remove("active");
-  //     sidebar.classList.remove("active");
-  //   }
-  // };
-
-  // toggle.onclick = function () {
-  //   toggle.classList.toggle("active");
-  //   sidebar.classList.toggle("active");
-  // };
-
     function zero(){
       let bar= document.getElementById("sidebar")
       bar.style.width="0px"
