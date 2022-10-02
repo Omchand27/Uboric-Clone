@@ -1,3 +1,7 @@
+
+
+
+
 let ShopData = [
     {
         Name: "Reebok Men’s Fast Approach M Running Shoe",
@@ -121,14 +125,13 @@ function display(ShopData) {
         let div = document.createElement("div");
         div.addEventListener("click", ()=>{
             localStorage.setItem("products",JSON.stringify(el));
+            window.location.href="productView.html"
         })
         let name = document.createElement("h3");
         name.innerText = el.Name;
         let image_url = document.createElement("img");
         image_url.setAttribute("src", el.Image);
-        image_url.addEventListener("click", function () {
-            show(el)
-        })
+        
         let div1 = document.createElement("div");
         div1.setAttribute("class", "pri")
         let div2 = document.createElement("div");
@@ -157,6 +160,16 @@ function display(ShopData) {
 }
 
 display(ShopData);
+
+import { navbar,footer } from "./components/navbar.js";
+
+let nav= document.getElementById("nav")
+nav.innerHTML=navbar()
+
+let foot= document.getElementById("footer")
+foot.innerHTML=footer()
+
+
 //console.log(ShopData.length);
 
 // -----------------filter-------------------

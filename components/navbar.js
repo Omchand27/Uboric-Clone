@@ -9,7 +9,7 @@ const navbar = () => {
 <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="#">About</a></li>
-    <li class="shop"><a href="#">Shop</a></li>
+    <li class="shop"><a href="./Vivek/shop.html">Shop</a></li>
     <li class="cat"><a href="#">Caterogies</a>
          <div class="submenu-1">
             <ul>
