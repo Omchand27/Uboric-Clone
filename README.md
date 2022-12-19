@@ -1,7 +1,7 @@
 # Uboric-Clone-Individual
 "Here at Uboric, we realize that style and prosperity begin with the correct shoes. We likewise understand that effectively finding the size and style to meet your requirements is vital to your web based shopping knowledge.
 
-<h2>This is a Individual Project</h2>
+<h2>This is a Group Project</h2>
 
 <ul>
   <li>Navbar to navigate to other pages</li>
