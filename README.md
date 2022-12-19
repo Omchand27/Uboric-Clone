@@ -22,5 +22,9 @@
 <img src="https://iili.io/HxkLw7I.png" />
 
 
+<h2>Tech Stack I Have Used</h2>
+
+<h4>HTML | CSS | JavaScript | Swipper Js</h4>
+
 
 
