@@ -1,7 +1,7 @@
 const navbar = () => {
   return `
     <div id="nav-start">
-    <a href="index.html"><img src="https://outstripinfotech.com/wpword/razi/wp-content/uploads/2022/08/200x80black.png"></a>
+    <a href="index.html"><img src="https://cdn.shopify.com/s/files/1/0695/8700/9816/files/photo_2023-01-11_19-19-02.jpg?v=1673444967&width=300"></a>
 </div>
 
 
@@ -79,9 +79,9 @@ const navbar = () => {
 
   <div class="icon">
   <a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
-        <a id="enable" ><i class="fa-solid fa-user" ></i></a>
-        <a> <i class="fa-solid fa-heart"></i></a>
-        <a><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+        <a  id="enable" ><i class="fa-solid fa-user" ></i></a>
+        <a href="wishlist.html"> <i class="fa-solid fa-heart"></i></a>
+        <a href="payment.html"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
        </div>
 </div>
 `;
